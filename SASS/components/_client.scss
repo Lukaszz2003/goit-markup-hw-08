@@ -1,0 +1,33 @@
+.client {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.client__h2 {
+  font-size: 32px;
+  justify-content: center;
+  display: flex;
+}
+.client__icon {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  --color1: #afb1b8;
+
+  &:hover {
+    --color4: #2196f3;
+    cursor: pointer;
+  }
+}
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}

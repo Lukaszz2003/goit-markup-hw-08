@@ -1,0 +1,94 @@
+.page-header {
+  height: 80px;
+  justify-content: space-evenly;
+  border: 1px solid #ececec;
+  background: #ffffff;
+  display: flex;
+  margin: auto;
+  padding: 0px 15px;
+  text-decoration: none;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+.navbar .navigation a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+
+  color: var(--main-color, black);
+}
+
+.header__nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: black;
+  display: flex;
+  margin-top: 32px;
+  gap: 46px;
+}
+
+.nav__link {
+  color: #000000;
+
+  &:hover {
+    color: $buttonbackgroundColor;
+    cursor: pointer;
+  }
+}
+.nav-item {
+  color: var(--main-color, black);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style-type: none;
+}
+.header__contact {
+  display: flex;
+
+  padding-top: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  gap: 10px;
+  color: var(--secondary-color, gray);
+}
+
+.contact__links {
+  color: var(--secondary-color, gray);
+
+  &:hover {
+    color: #2196f3;
+  }
+}
+.icon {
+  fill: #757575;
+
+  &:hover {
+    --color5: #2196f3;
+    cursor: pointer;
+  }
+}
+
+.active::after {
+  border: 2px solid #2196f3;
+  content: "";
+  width: 58px;
+  height: 4px;
+  position: absolute;
+  top: 76px;
+  display: block;
+  margin: 0;
+}
