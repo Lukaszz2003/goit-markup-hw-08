@@ -22,7 +22,7 @@
   --color1: #afb1b8;
 
   &:hover {
-    --color4: #2196f3;
+    --color4: $buttonbackgroundColor;
     cursor: pointer;
   }
 }

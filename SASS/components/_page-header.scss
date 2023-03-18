@@ -70,14 +70,14 @@ ul {
   color: var(--secondary-color, gray);
 
   &:hover {
-    color: #2196f3;
+    color: $buttonbackgroundColor;
   }
 }
 .icon {
   fill: #757575;
 
   &:hover {
-    --color5: #2196f3;
+    --color5: $buttonbackgroundColor3;
     cursor: pointer;
   }
 }

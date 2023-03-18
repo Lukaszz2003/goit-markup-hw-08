@@ -9,11 +9,6 @@
   align-items: center;
 }
 
-.container {
-  margin: 0px auto;
-  padding: 0px 15px;
-}
-
 .team-one {
   display: flex;
 
@@ -23,13 +18,19 @@
 
   height: 648px;
   align-items: center;
+
+  @media all and (min-width: 480px) {
+    .team-one {
+      display: block;
+    }
+  }
 }
 .team__icon {
   width: 44px;
   height: 44px;
 
   &:hover {
-    --color3: #2196f3;
+    --color3: $buttonbackgroundColor;
     cursor: pointer;
   }
 }
@@ -40,4 +41,10 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+@media screen and (min-width: 480px) {
+  .team {
+    display: block;
+  }
 }
