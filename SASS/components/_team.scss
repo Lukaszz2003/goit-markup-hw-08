@@ -21,7 +21,7 @@
 
   @media all and (min-width: 480px) {
     .team-one {
-      display: block;
+      flex-direction: column;
     }
   }
 }

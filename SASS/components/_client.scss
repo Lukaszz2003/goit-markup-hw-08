@@ -1,5 +1,5 @@
 .client {
-  height: 150px;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,11 +7,9 @@
   flex-direction: row;
   margin: 0 auto;
 }
-
-@media screen and (min-width: 480px) {
-  .client,
-  .client__icon {
-    display: none;
+@media all and (min-width: 480px) {
+  .client {
+    flex-direction: column;
   }
 }
 
