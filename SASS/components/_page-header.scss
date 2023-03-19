@@ -92,3 +92,9 @@ ul {
   display: block;
   margin: 0;
 }
+
+@media all and (max-width: 768px) {
+  .header__contact {
+    width: 200px;
+  }
+}

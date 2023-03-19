@@ -11,12 +11,3 @@
 @import "./components/footer";
 @import "./components/modal";
 @import "./components/portfolio";
-
-@media screen and (max-width: 480px) {
-  body {
-    width: 480px;
-    height: 5457px;
-    left: 0px;
-    top: 0px;
-  }
-}
