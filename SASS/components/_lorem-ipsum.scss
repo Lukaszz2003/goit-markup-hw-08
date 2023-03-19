@@ -28,15 +28,8 @@
   padding: 0px 15px;
 }
 
-@media all and (min-width: 480px) {
-  .lorem__ipsum,
-  .lorem-ipsum__picture,
-  .lorem__ipsum__text {
-    position: absolute;
-    width: 480px;
-    height: 5457px;
-    left: 0px;
-    top: 0px;
-    display: block;
+@media all and (max-width: 480px) {
+  .lorem__ipsum {
+    flex-direction: column;
   }
 }
