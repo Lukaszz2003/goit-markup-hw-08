@@ -2,15 +2,6 @@
   max-width: 1200px;
 }
 
-@media all and (max-width: 480px) {
-  .containter__footer {
-    flex-direction: column;
-    text-align: center;
-    width: 480px;
-    height: 603px;
-  }
-}
-
 .page-footer {
   font-family: "Roboto", sans-serif;
   background: #2f303a;
@@ -29,23 +20,8 @@
   color: #ffffff;
 }
 
-@media all and (max-width: 480px) {
-  .page-footer {
-    flex-direction: column;
-    text-align: center;
-    width: 480px;
-    height: 603px;
-  }
-}
 .logo__adress__footer {
   margin-left: 350px;
-}
-
-@media all and (max-width: 480px) {
-  .logo__adress__footer {
-    margin-left: 40px;
-    text-align: center;
-  }
 }
 
 .footer__social__link {
@@ -54,6 +30,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .footer__address {
   color: #ffffff;
   font-style: normal;
@@ -84,13 +61,6 @@
   color: #ffffff;
 }
 
-@media all and (max-width: 480px) {
-  .newsletter {
-    text-align: center;
-    position: relative;
-  }
-}
-
 .button-footer {
   position: absolute;
   width: 200px;
@@ -106,13 +76,6 @@
   font-size: 16px;
   line-height: 30px;
   cursor: pointer;
-}
-
-@media all and (max-width: 480px) {
-  .button-footer {
-    text-align: center;
-    margin-bottom: 493px;
-  }
 }
 
 .mail {
@@ -142,53 +105,66 @@
   }
 }
 
-@media all and (max-width: 768px) {
-  .containter__footer {
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .page-footer {
     flex-direction: column;
     text-align: center;
-    width: 768px;
-    height: 463px;
+    width: 480px;
+    height: 603px;
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .button-footer {
+    margin-top: 100px;
+    position: inherit;
+    margin-left: 50px;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .newsletter {
+    margin-top: 20px;
+    text-align: justify;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .footer_h4 {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
   .page-footer {
     width: 768px;
     height: 463px;
   }
 }
 
-@media all and (max-width: 768px) {
-  .logo__adress__footer {
-    margin-left: 40px;
-    text-align: center;
+@media all and (min-width: 768px) and (max-width: 1200px) {
+  .button-footer {
+    margin-top: 70px;
+    position: inherit;
+    margin-left: 80px;
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 1200px) {
   .newsletter {
     margin-top: 150px;
-    margin-left: -550px;
+    margin-left: -450px;
   }
 }
-
-@media all and (max-width: 768px) {
-  .button-footer {
-    text-align: center;
-    margin-top: 80px;
-    margin-left: -280px;
-  }
-}
-
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 1200px) {
   .footer__social__link {
-    margin-left: 134px;
+    margin-left: 50px;
   }
 }
-
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 1200px) {
   .footer_h4 {
-    margin-left: 90px;
+    text-align: center;
   }
 }
 
