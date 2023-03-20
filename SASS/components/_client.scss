@@ -7,7 +7,7 @@
   flex-direction: row;
   margin: 0 auto;
 }
-@media all and (max-width: 480px) {
+@media all and (min-width: 480px) and (max-width: 767px) {
   .client {
     display: inline;
     flex-direction: column;
@@ -18,7 +18,7 @@
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 1200px) {
   .client {
     display: inline;
     flex-direction: column;
@@ -29,14 +29,14 @@
   }
 }
 
-@media all and (max-width: 480px) {
+@media all and (min-width: 480px) and (max-width: 767px) {
   .client__icon {
     margin-left: 30px;
     margin-bottom: 30px;
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 1200px) {
   .client__icon {
     margin-left: 30px;
     margin-bottom: 30px;

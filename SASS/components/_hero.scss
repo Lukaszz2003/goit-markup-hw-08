@@ -12,6 +12,14 @@
   text-transform: uppercase;
   font-size: 34px;
 }
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../images/team2x.jpg);
+  }
+}
 .container {
   max-width: 1200px;
   margin: 0px auto;

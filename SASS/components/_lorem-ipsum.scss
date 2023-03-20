@@ -28,39 +28,46 @@
   padding: 0px 15px;
 }
 
-@media all and (max-width: 480px) {
+@media all and (min-width: 480px) and (max-width: 767px) {
   .lorem__ipsum {
     flex-direction: column;
   }
 }
 
-@media all and (max-width: 480px) {
+@media all and (min-width: 480px) and (max-width: 767px) {
   .lorem__ipsum__text {
     width: 350px;
     height: 50px;
   }
 }
 
-@media all and (max-width: 480px) {
+@media all and (min-width: 480px) and (max-width: 767px) {
   .lorem-ipsum__picture {
     width: 400px;
     height: 120px;
+    margin-top: 15px;
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 1200px) {
   .lorem__ipsum {
     width: 768px;
-    height: 1285px;
+
     flex-direction: row;
     flex-wrap: wrap;
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 1200px) {
   .lorem__ipsum__picture {
-    width: 768px;
-    height: 1285px;
+    width: 354px;
+    left: 15px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+  .lorem__ipsum__text {
+    width: 354px;
     left: 15px;
   }
 }
