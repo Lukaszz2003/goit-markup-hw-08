@@ -31,16 +31,26 @@
   padding: 27px;
 }
 
-@media all and (max-width: 480px) {
+@media all and (min-width: 480px) and (max-width: 767px) {
   .work {
-    flex-direction: column;
+    position: fixed;
   }
 }
 
-@media all and (max-width: 480px) {
-  .work__item {
-    margin-top: 1290px;
-    margin: 0;
-    background: rgba(47, 48, 58, 0.8);
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .work__h2 {
+    position: fixed;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+  .work {
+    position: fixed;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+  .work__h2 {
+    position: fixed;
   }
 }
