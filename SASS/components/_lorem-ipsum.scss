@@ -31,19 +31,20 @@
 @media all and (min-width: 480px) and (max-width: 767px) {
   .lorem__ipsum {
     flex-direction: column;
+    width: 100%;
   }
 }
 
 @media all and (min-width: 480px) and (max-width: 767px) {
   .lorem__ipsum__text {
-    width: 350px;
+    width: 100%;
     height: 50px;
   }
 }
 
 @media all and (min-width: 480px) and (max-width: 767px) {
   .lorem-ipsum__picture {
-    width: 400px;
+    width: 100%;
     height: 120px;
     margin-top: 15px;
   }
@@ -51,8 +52,9 @@
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .lorem__ipsum {
-    width: 768px;
-
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -67,7 +69,7 @@
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .lorem__ipsum__text {
-    width: 354px;
+    width: 330px;
     left: 15px;
   }
 }

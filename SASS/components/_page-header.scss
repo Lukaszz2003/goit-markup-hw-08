@@ -30,6 +30,9 @@
   display: flex;
   margin-top: 32px;
   gap: 46px;
+  @media all and (max-width: 768px) {
+    display: none;
+  }
 }
 
 .nav__link {
@@ -64,6 +67,9 @@ ul {
   letter-spacing: 0.02em;
   gap: 10px;
   color: var(--secondary-color, gray);
+  @media all and (max-width: 768px) {
+    display: none;
+  }
 }
 
 .contact__links {
@@ -96,5 +102,25 @@ ul {
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .header__contact {
     width: 200px;
+  }
+}
+
+.header__menu-toggle {
+  min-height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  @media all and (min-width: 768px) {
+    display: none;
+  }
+  &:hover {
+    fill: #2196f3;
   }
 }

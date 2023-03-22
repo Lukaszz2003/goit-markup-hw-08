@@ -51,8 +51,16 @@
             <a class="contact__links" href="tel:+48111111111">+48 111 111 111</a>
           </li>
         </ul>
-      
-    </header>
+        <div class="menu-container"></div>
+        <button class="header__menu-toggle js-open-menu" aria-expanded="false"
+        aria-controls="mobile-menu">
+          <svg class="menu-toggle__icon" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-menu_40px"></use>
+          </svg>
+          
+        </button>
+      </div>
+          </header>
     <main>
       <section class="hero">
         <div class="container">
@@ -419,6 +427,39 @@
       </div>
       
     </div>
+    
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="menu-toggle-close" width="24" height="24">
+          <use href="./images/symbol-defs.svg#icon-close_24px"></use>
+        </svg>
+      </button>
+      <nav>
+        <ul class="mobile-menu">
+          <li><a class="mobile_link" href="./index.html">Agencja</a></li>
+          <li><a class="mobile_link" href="Portfolio.html">Portfolio</a></li>
+          <li><a class="mobile_link" href="kontakt">Kontakt</a></li>
+        </ul>
+
+        <ul class="mobile-contacts list">
+          <li>
+            <a href="tel:+48111111111" class="link_tel">+48111111111 </a>
+            </li>
+            <li>
+              <a href="mailto:info@devstudio.com" class="link_mail">info@devstudio.com</a>
+            </li>
+            
+        </ul>
+        <ul class="mobile-menu_social-link">
+          <a class="Instagram">Instagram</a>
+          <a class="Twitter">Twitter</a>
+          <a class="Facebook">Facebook</a>
+          <a class="Linkedin">Linkedin</a>
+        </ul>
+      </nav>
+     </div>
+
     <script src="./js/modal.js"></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
