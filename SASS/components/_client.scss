@@ -8,7 +8,7 @@
   margin: 0 auto;
   margin-bottom: 30px;
 }
-@media all and (max-width: 480px) {
+@media all and (min-width: 480px) and (max-width: 767px) {
   .client {
     display: inline;
     flex-direction: column;
@@ -16,10 +16,11 @@
     height: 92px;
     gap: 20px;
     margin-bottom: 30px;
+    flex-basis: calc((100% - 60px) / 2);
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 1199px) {
   .client {
     display: inline;
     flex-direction: column;
@@ -27,6 +28,7 @@
     height: 92px;
     gap: 40px;
     margin-bottom: 30px;
+    flex-basis: calc((100% - 60px) / 3);
   }
 }
 
