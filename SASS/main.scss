@@ -12,3 +12,9 @@
 @import "./components/modal";
 @import "./components/portfolio";
 @import "./components/mobile_menu";
+
+body {
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    width: 100%;
+  }
+}

@@ -174,3 +174,22 @@
     margin-left: 40px;
   }
 }
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .button_page-footer {
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .mail {
+    position: relative;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .newsletter {
+    position: inherit;
+    text-align: center;
+  }
+}
