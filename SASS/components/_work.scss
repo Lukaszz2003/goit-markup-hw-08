@@ -34,23 +34,27 @@
 @media all and (min-width: 480px) and (max-width: 767px) {
   .work {
     position: fixed;
+    display: none;
   }
 }
 
 @media all and (min-width: 480px) and (max-width: 767px) {
   .work__h2 {
     position: fixed;
+    display: none;
   }
 }
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .work {
     position: fixed;
+    display: none;
   }
 }
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .work__h2 {
     position: fixed;
+    display: none;
   }
 }
